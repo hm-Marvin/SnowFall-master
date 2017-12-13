@@ -12,7 +12,7 @@ dependencies {
 }
 ```
 使用
------
+----
 <br>1.在xml文件
 ```
 <com.marvin.snowfall.SnowfallView
@@ -33,7 +33,7 @@ dependencies {
          />
 ```
 License
------
+----
 ```
 Copyright 2017 hm-Marvin
 
