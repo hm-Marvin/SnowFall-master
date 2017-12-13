@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.marvin.snowfall_master.MainActivity">
+
+    <com.marvin.snowfall.SnowfallView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sf_snow"
+        app:snowflakesNum="200"
+        app:snowflakeAlphaMin="150"
+        app:snowflakeAlphaMax="255"
+        app:snowflakeAngleMax="5"
+        app:snowflakeSizeMin="2dp"
+        app:snowflakeSizeMax="100dp"
+        app:snowflakeSpeedMin="2"
+        app:snowflakeSpeedMax="7"
+        app:snowflakesFadingEnabled="true"
+        app:snowflakesAlreadyFalling="false"
+        app:snowflakeImage="@mipmap/snowflake"
+        />
+
+</android.support.constraint.ConstraintLayout>
