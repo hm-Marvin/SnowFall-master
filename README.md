@@ -3,16 +3,16 @@
 视频
 
 ##接入
-------------------
 1.下载后在根目录下的build.gradle添加依赖：
-'dependencies {
-     implementation project(':snowfall')
- }'
-
+```
+dependencies {
+    implementation project(':snowfall')
+}
+```
 ##使用
-------------------
 1.在xml文件
-'<com.marvin.snowfall.SnowfallView
+```
+<com.marvin.snowfall.SnowfallView
          android:layout_width="match_parent"
          android:layout_height="match_parent"
          android:id="@+id/sf_snow"
@@ -27,11 +27,11 @@
          app:snowflakesFadingEnabled="true"
          app:snowflakesAlreadyFalling="false"
          app:snowflakeImage="@mipmap/snowflake"
-         />'
-
+         />
+```
 ##License
--------------------
-'Copyright 2017 marvin
+```
+Copyright 2017 hm-Marvin
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -43,6 +43,6 @@
  distributed under the License is distributed on an "AS IS" BASIS,
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  See the License for the specific language governing permissions and
- limitations under the License.'
-
+ limitations under the License.
+```
  
