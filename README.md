@@ -1,6 +1,6 @@
 # SnowFall-master
 基于[Android-Snowfall](https://github.com/JetradarMobile/android-snowfall)进行kotlin->Java和使用SurfaceView绘制
-视频
+![](https://raw.githubusercontent.com/hm-Marvin/SnowFall-master/master/art/demo.gif)
 
 ##接入
 1.下载后在根目录下的build.gradle添加依赖：
