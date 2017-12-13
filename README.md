@@ -1,16 +1,18 @@
 # SnowFall-master
-基于[Android-Snowfall](https://github.com/JetradarMobile/android-snowfall)进行kotlin->Java和使用SurfaceView绘制
-![](https://raw.githubusercontent.com/hm-Marvin/SnowFall-master/master/art/demo.gif)
+<br>基于[Android-Snowfall](https://github.com/JetradarMobile/android-snowfall)进行kotlin->Java和使用SurfaceView绘制
+<br>![](https://raw.githubusercontent.com/hm-Marvin/SnowFall-master/master/art/demo.gif)
 
 ##接入
-1.下载后在根目录下的build.gradle添加依赖：
+
+<br>1.下载后在根目录下的build.gradle添加依赖：
 ```
 dependencies {
     implementation project(':snowfall')
 }
 ```
 ##使用
-1.在xml文件
+
+<br>1.在xml文件
 ```
 <com.marvin.snowfall.SnowfallView
          android:layout_width="match_parent"
@@ -30,6 +32,7 @@ dependencies {
          />
 ```
 ##License
+
 ```
 Copyright 2017 hm-Marvin
 
